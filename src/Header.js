@@ -10,6 +10,7 @@ export default class Header extends React.Component {
       <div>
         <Title title={this.props.title} />
         <input />
+        <p>{this.props.description}</p>
       </div>
     );
   }

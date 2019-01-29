@@ -10,13 +10,14 @@ class Layout extends React.Component {
   }
   render() {
     const title = "Welcome Vane!!!!";
+    const description = "This is the description";
     // setTimeout(() => {
     //   this.setState({ name: "Brenda" });
     // }, 1000);
     return (
       <div>
         {this.state.name}
-        <Header name={"Something"} title={title} />
+        <Header name={"Something"} title={title} description={description} />
         <Footer />
       </div>
     );
